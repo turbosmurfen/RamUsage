@@ -11,7 +11,7 @@ Example result:
 Example result:  
 ```7191``` 
 
-### Example grab how many percentage of RAM you use.  
+### Example grab memory load.  
 ```//echo -a $dll(RamUsage.dll,memoryload,)```    
 Example result:  
 ```40``` 
