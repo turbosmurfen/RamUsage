@@ -1,3 +1,7 @@
+# Better to use Moo.mrc, which can be found here: https://hm2k.org/projects/moo
+
+
+
 # RamUsage
 A tool to show total RAM, used RAM for mIRC
 
