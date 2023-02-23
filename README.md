@@ -5,18 +5,11 @@
 # RamUsage  
 This is a DLL-file to read memory information. This is only made for mIRC.  
 
-### Examples grab how much RAM you have.  
-```//echo -a $dll(RamUsage.dll,mem,memtotal)```  
-Example result:  
-```16300```  
-  
-### Example grab how much RAM that you use at the moment.  
-```//echo -a $dll(RamUsage.dll,mem,memused,)```  
-Example result:  
-```7191``` 
+Use: _/dll ramUsage.dll mem **command**_
 
-### Example grab memory load.  
-```//echo -a $dll(RamUsage.dll,mem,memload,)```    
-Example result:  
-```40``` 
+| Command       |Description   |  
+| --- | --- |  
+| memtotal | Show how much RAM you have. |  
+| memused | Show how much RAM you use at the moment. |  
+| memload | Show how much RAM load you have. |  
 
